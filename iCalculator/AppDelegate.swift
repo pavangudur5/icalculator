@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  iCalculator
 //
-//  Created by A Plus on 10/14/16.
-//  Copyright © 2016 itStar912. All rights reserved.
+//  Created by Pavan Kumar Gudur Ashok Kumar on 10/11/16.
 //
 
 import UIKit
