@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,50 +20,50 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vcn-4Q-UOP">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vcn-4Q-UOP">
                                 <rect key="frame" x="0.0" y="184" width="414" height="552"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="44U-CF-gxA">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="44U-CF-gxA">
                                         <rect key="frame" x="0.0" y="0.0" width="207" height="552"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YeO-JN-aXR">
+                                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YeO-JN-aXR">
                                                 <rect key="frame" x="103" y="0.0" width="104" height="442"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1v2-a2-1Ci" userLabel="Btn Reversion">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1v2-a2-1Ci" userLabel="Btn Reversion">
                                                         <rect key="frame" x="0.0" y="0.0" width="104" height="111"/>
-                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="+/-"/>
                                                         <connections>
                                                             <action selector="operatorTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xb4-Eq-hrd"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpb-Sp-mHq">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpb-Sp-mHq">
                                                         <rect key="frame" x="0.0" y="333" width="104" height="111"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="2"/>
                                                         <connections>
                                                             <action selector="numberTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q03-PB-pBN"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oY-HD-Uwz">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oY-HD-Uwz">
                                                         <rect key="frame" x="0.0" y="222" width="104" height="111"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="5"/>
                                                         <connections>
                                                             <action selector="numberTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0N5-si-8g5"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlD-dN-H4y">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlD-dN-H4y">
                                                         <rect key="frame" x="0.0" y="111" width="104" height="111"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="8"/>
                                                         <connections>
                                                             <action selector="numberTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oqA-ox-SFw"/>
@@ -85,41 +89,41 @@
                                                     <constraint firstItem="qlD-dN-H4y" firstAttribute="height" secondItem="1v2-a2-1Ci" secondAttribute="height" id="qUy-3u-ZSm"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fo6-t5-I3d">
+                                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fo6-t5-I3d">
                                                 <rect key="frame" x="0.0" y="0.0" width="104" height="442"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rtk-2s-EJZ" userLabel="Btn Clear">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rtk-2s-EJZ" userLabel="Btn Clear">
                                                         <rect key="frame" x="0.0" y="0.0" width="104" height="111"/>
-                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="C"/>
                                                         <connections>
                                                             <action selector="clearTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VsD-rI-WaU"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3X-bX-kI2">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3X-bX-kI2">
                                                         <rect key="frame" x="0.0" y="111" width="104" height="111"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="7"/>
                                                         <connections>
                                                             <action selector="numberTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vxp-X8-obh"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHG-Uc-KVc">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHG-Uc-KVc">
                                                         <rect key="frame" x="0.0" y="222" width="104" height="111"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="4"/>
                                                         <connections>
                                                             <action selector="numberTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V7v-HM-rtp"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6W-Fa-PYh">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6W-Fa-PYh">
                                                         <rect key="frame" x="0.0" y="333" width="104" height="111"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="1"/>
                                                         <connections>
                                                             <action selector="numberTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nHO-9t-3lu"/>
@@ -145,10 +149,10 @@
                                                     <constraint firstItem="Rtk-2s-EJZ" firstAttribute="width" secondItem="Fo6-t5-I3d" secondAttribute="width" id="ulL-cv-yzh"/>
                                                 </constraints>
                                             </view>
-                                            <button opaque="NO" alpha="0.94999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PrU-zT-v4U">
+                                            <button opaque="NO" alpha="0.94999999999999996" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PrU-zT-v4U">
                                                 <rect key="frame" x="0.0" y="442" width="207" height="110"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="0"/>
                                                 <connections>
                                                     <action selector="numberTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="STj-Hm-f3n"/>
@@ -170,57 +174,57 @@
                                             <constraint firstItem="PrU-zT-v4U" firstAttribute="height" secondItem="44U-CF-gxA" secondAttribute="height" multiplier="0.2" id="wU4-9Y-tPr"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L5D-ZJ-h9c">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L5D-ZJ-h9c">
                                         <rect key="frame" x="207" y="0.0" width="207" height="552"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OXl-TT-c9i">
+                                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OXl-TT-c9i">
                                                 <rect key="frame" x="104" y="0.0" width="103" height="552"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aze-65-6Sf" userLabel="Btn Multiply">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aze-65-6Sf" userLabel="Btn Multiply">
                                                         <rect key="frame" x="0.0" y="111" width="103" height="111"/>
-                                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.71669991129999999" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.71669991129999999" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="x"/>
                                                         <connections>
                                                             <action selector="operatorTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lj6-El-e5D"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yY1-3Y-SzA" userLabel="Btn Minus">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yY1-3Y-SzA" userLabel="Btn Minus">
                                                         <rect key="frame" x="0.0" y="222" width="103" height="111"/>
-                                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.71669991129999999" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.71669991129999999" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="-"/>
                                                         <connections>
                                                             <action selector="operatorTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4dZ-vF-L6j"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XqX-zA-1FC" userLabel="Btn Equal">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XqX-zA-1FC" userLabel="Btn Equal">
                                                         <rect key="frame" x="0.0" y="444" width="103" height="111"/>
-                                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.71669991134751787" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.71669991134751787" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="="/>
                                                         <connections>
                                                             <action selector="equalsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dlI-0J-zlW"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjE-m4-L9N" userLabel="Btn Division">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjE-m4-L9N" userLabel="Btn Division">
                                                         <rect key="frame" x="0.0" y="0.0" width="103" height="111"/>
-                                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.71669991129999999" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.71669991129999999" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="/"/>
                                                         <connections>
                                                             <action selector="operatorTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5f3-N1-5xb"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Djt-S6-BHe" userLabel="Btn Plus">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Djt-S6-BHe" userLabel="Btn Plus">
                                                         <rect key="frame" x="0.0" y="333" width="103" height="111"/>
-                                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.71669991129999999" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.71669991129999999" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="+"/>
                                                         <connections>
                                                             <action selector="operatorTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iLm-3S-8VV"/>
@@ -250,51 +254,51 @@
                                                     <constraint firstItem="Aze-65-6Sf" firstAttribute="top" secondItem="yjE-m4-L9N" secondAttribute="bottom" id="yMF-DY-1BI"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l2l-94-KN7">
+                                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l2l-94-KN7">
                                                 <rect key="frame" x="0.0" y="0.0" width="104" height="552"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yxr-YH-xDE" userLabel="Btn Percent">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yxr-YH-xDE" userLabel="Btn Percent">
                                                         <rect key="frame" x="0.0" y="0.0" width="104" height="111"/>
-                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="%"/>
                                                         <connections>
                                                             <action selector="operatorTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n91-LH-8nP"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77K-rI-HdD">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77K-rI-HdD">
                                                         <rect key="frame" x="0.0" y="111" width="104" height="111"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <state key="normal" title="9">
-                                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <color key="titleColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="numberTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lpW-A2-DGi"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOJ-Qb-F3J">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOJ-Qb-F3J">
                                                         <rect key="frame" x="0.0" y="222" width="104" height="111"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="6"/>
                                                         <connections>
                                                             <action selector="numberTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j8z-47-lFE"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hm1-Po-kHs">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hm1-Po-kHs">
                                                         <rect key="frame" x="0.0" y="444" width="104" height="111"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="."/>
                                                         <connections>
                                                             <action selector="pointTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AIe-iU-pmr"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBj-lS-V5Z">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBj-lS-V5Z">
                                                         <rect key="frame" x="0.0" y="333" width="104" height="111"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="tintColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="3"/>
                                                         <connections>
                                                             <action selector="numberTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GUr-M9-QTA"/>
@@ -337,7 +341,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="44U-CF-gxA" firstAttribute="leading" secondItem="Vcn-4Q-UOP" secondAttribute="leading" id="518-nL-Wbb"/>
                                     <constraint firstItem="L5D-ZJ-h9c" firstAttribute="height" secondItem="44U-CF-gxA" secondAttribute="height" id="8XX-HA-Qx1"/>
@@ -349,17 +353,17 @@
                                     <constraint firstItem="L5D-ZJ-h9c" firstAttribute="width" secondItem="44U-CF-gxA" secondAttribute="width" id="zc7-Pq-kfM"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="i5E-8E-Yep">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="i5E-8E-Yep">
                                 <rect key="frame" x="20" y="104" width="374" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="5uD-J8-Fcv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="i5E-8E-Yep" secondAttribute="trailing" id="0yK-Wr-Soo"/>
                             <constraint firstItem="i5E-8E-Yep" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="2s9-TF-p7N"/>
@@ -370,7 +374,6 @@
                             <constraint firstItem="Vcn-4Q-UOP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="s9H-Zf-afN"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="btnNum0" destination="PrU-zT-v4U" id="iPl-6R-eoM"/>
                         <outlet property="btnNum1" destination="g6W-Fa-PYh" id="IPC-UA-rrc"/>
